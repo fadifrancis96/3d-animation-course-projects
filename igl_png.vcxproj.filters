@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\png\readPNG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\png\render_to_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\png\render_to_png_async.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\png\texture_from_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\png\texture_from_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\png\writePNG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C2EB1BF-EC67-3EB1-B47E-B56B73651A09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\AABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\AtA_cached.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\EPS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\HalfEdgeIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\accumarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\active_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\adjacency_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\adjacency_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\all.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\all_edges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\all_pairs_distances.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ambient_occlusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\angular_distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\any.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\any_of.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\arap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\arap_dof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\arap_linear_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\arap_rhs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\average_onto_faces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\average_onto_vertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\avg_edge_length.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\axis_angle_to_quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\barycenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\barycentric_coordinates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\barycentric_to_global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\basename.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\bbw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\bfs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\bfs_orient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\biharmonic_coordinates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\bijective_composite_harmonic_mapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\bone_parents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\boundary_conditions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\boundary_facets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\boundary_loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\bounding_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\bounding_box_diagonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\canonical_quaternions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ceil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\centroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\circulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\circumradius.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\collapse_edge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\collapse_small_triangles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\colon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\colormap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\column_to_quats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\columnize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\comb_cross_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\comb_frame_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\comb_line_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\combine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\compute_frame_field_bisectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\connect_boundary_to_infinity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\copyleft\marching_cubes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\copyleft\offset_surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\copyleft\progressive_hulls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\copyleft\progressive_hulls_cost_and_placement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\copyleft\quadprog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\copyleft\swept_volume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cotmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cotmatrix_entries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cotmatrix_intrinsic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\count.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\covariance_scatter_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cross.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cross_field_mismatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\crouzeix_raviart_cotmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\crouzeix_raviart_massmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cumprod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cumsum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cut_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cut_mesh_from_singularities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cut_to_disk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dated_copy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\decimate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\deform_skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\delaunay_triangulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dfs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\diag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dihedral_angles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dijkstra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\directed_edge_orientations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\directed_edge_parents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dirname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dot_row.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\doublearea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\dqs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ears.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\edge_collapse_is_valid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\edge_exists_near.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\edge_flaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\edge_lengths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\edge_topology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\edges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\edges_to_path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\eigs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\euler_characteristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\exact_geodesic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\example_fun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\exterior_edges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\extract_manifold_patches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\extract_non_manifold_edge_curves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\face_areas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\face_occurrences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\faces_first.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\facet_components.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\false_barycentric_subdivision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\fast_winding_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\file_contents_as_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\file_dialog_open.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\file_dialog_save.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\file_exists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\find.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\find_cross_field_singularities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\find_zero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\fit_plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\fit_rotations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\flip_avoiding_line_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\flip_edge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\flipped_triangles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\flood_fill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\floor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\forward_kinematics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\frame_field_deformer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\frame_to_cross_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\frustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\gaussian_curvature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\get_seconds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\get_seconds_hires.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\grad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\grad_intrinsic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\grid_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\group_sum_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\guess_extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\harmonic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\harwell_boeing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\hausdorff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\heat_geodesics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\hessian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\hessian_energy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\histc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\hsv_to_rgb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\in_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\infinite_cost_stopping_condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\inradius.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\internal_angles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\intersect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\intrinsic_delaunay_cotmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\intrinsic_delaunay_triangulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\invert_diag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_border_vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_boundary_edge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_delaunay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_dir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_edge_manifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_intrinsic_delaunay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_irregular_vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_planar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_readable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_sparse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_stl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_symmetric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_vertex_manifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\is_writable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\isdiag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ismember.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\isolines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\jet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\knn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\launch_medit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\lbs_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\lexicographic_triangulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\limit_faces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\line_field_mismatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\line_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\line_segment_in_rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\linprog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\list_to_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\local_basis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\look_at.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\lscm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\map_vertices_to_circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\mapping_energy_with_jacobians.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\marching_tets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\massmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\massmatrix_intrinsic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\mat_max.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\mat_min.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\mat_to_quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\matlab_format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\matrix_to_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\max.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\max_faces_stopping_condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\max_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\median.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\min.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\min_quad_dense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\min_quad_with_fixed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\min_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\mod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\mode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\mvc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\nchoosek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\next_filename.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\normal_derivative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\normalize_quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\normalize_row_lengths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\normalize_row_sums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\octree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\on_boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\orient_outward.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\orientable_patches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\oriented_facets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\orth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ortho.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\outer_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\parallel_transport_angles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\partition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\parula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\path_to_executable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\pathinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\per_corner_normals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\per_edge_normals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\per_face_normals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\per_vertex_attribute_smoothing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\per_vertex_normals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\per_vertex_point_to_plane_quadrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\piecewise_constant_winding_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\pinv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\planarize_quad_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\point_in_circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\point_in_poly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\point_mesh_squared_distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\point_simplex_squared_distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\polar_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\polar_svd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\polar_svd3x3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\polygon_mesh_to_triangle_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\principal_curvature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\print_ijv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\print_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\procrustes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\project_isometrically_to_plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\project_to_line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\project_to_line_segment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\pseudonormal_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\pso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\qslim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\qslim_optimal_collapse_edge_callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\quad_planarity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\quadric_binary_plus_operator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\quat_conjugate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\quat_mult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\quat_to_axis_angle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\quat_to_mat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\quats_to_column.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ramer_douglas_peucker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\random_dir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\random_points_on_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\random_quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\random_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\randperm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ray_box_intersect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ray_mesh_intersect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\ray_sphere_intersect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readBF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readCSV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readDMAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readMESH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readMSH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readNODE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readOBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readOFF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readPLY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readSTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readTGF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\readWRL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\read_triangle_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\remesh_along_isoline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\remove_duplicate_vertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\remove_duplicates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\remove_unreferenced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\reorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\repdiag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\repmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\resolve_duplicated_faces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\rgb_to_hsv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\rotate_by_quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\rotate_vectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\rotation_matrix_from_directions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\round.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\rows_to_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sample_edges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\scaf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\seam_edges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\segment_segment_intersect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\setdiff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\setunion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\setxor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\shape_diameter_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\shapeup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\shortest_edge_and_midpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\signed_angle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\signed_distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\simplify_polyhedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\slice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\slice_cached.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\slice_into.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\slice_mask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\slim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\snap_points.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\snap_to_canonical_view_quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\snap_to_fixed_up.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\solid_angle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sort_angles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sort_triangles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sort_vectors_ccw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sortrows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sparse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sparse_cached.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sparse_voxel_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\speye.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\squared_edge_lengths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\stdin_to_temp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\straighten_seams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\svd3x3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\svd3x3_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\svd3x3_sse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\swept_volume_bounding_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\swept_volume_signed_distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\tan_half_angle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\tet_tet_adjacency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\topological_hole_fill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\trackball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\transpose_blocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\triangle_fan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\triangle_triangle_adjacency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\triangles_from_strip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\triangulated_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\two_axis_valuator_fixed_up.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\uniformly_sample_two_manifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unique_edge_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unique_rows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unique_simplices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unproject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unproject_in_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unproject_onto_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unproject_ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\unzip_corners.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\upsample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\vector_area_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\vertex_components.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\vertex_triangle_adjacency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\volume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\voxel_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\winding_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeBF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeDMAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeMESH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeOBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeOFF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writePLY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeSTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeTGF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\writeWRL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl\write_triangle_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C2EB1BF-EC67-3EB1-B47E-B56B73651A09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BE48612-C098-3F44-8638-400B263E5BC4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>sandBox_bin</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sandBox_bin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sandBox_bin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sandBox_bin.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sandBox_bin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sandBox_bin.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sandBox_bin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sandBox_bin.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sandBox_bin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\igl.lib;..\..\Debug\igl_opengl.lib;..\..\Debug\igl_opengl_glfw.lib;..\..\Debug\igl_opengl_glfw_imgui.lib;..\..\Debug\igl_png.lib;..\..\Debug\igl_opengl_glfw.lib;..\..\Debug\imgui.lib;..\..\Debug\glfw3.lib;..\..\Debug\igl_opengl.lib;..\..\Debug\igl.lib;opengl32.lib;..\..\Debug\glad.lib;..\..\Debug\igl_stb_image.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/Debug/sandBox_bin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/sandBox_bin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Release\igl.lib;..\..\Release\igl_opengl.lib;..\..\Release\igl_opengl_glfw.lib;..\..\Release\igl_opengl_glfw_imgui.lib;..\..\Release\igl_png.lib;..\..\Release\igl_opengl_glfw.lib;..\..\Release\imgui.lib;..\..\Release\glfw3.lib;..\..\Release\igl_opengl.lib;..\..\Release\igl.lib;opengl32.lib;..\..\Release\glad.lib;..\..\Release\igl_stb_image.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/Release/sandBox_bin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/sandBox_bin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\MinSizeRel\igl.lib;..\..\MinSizeRel\igl_opengl.lib;..\..\MinSizeRel\igl_opengl_glfw.lib;..\..\MinSizeRel\igl_opengl_glfw_imgui.lib;..\..\MinSizeRel\igl_png.lib;..\..\MinSizeRel\igl_opengl_glfw.lib;..\..\MinSizeRel\imgui.lib;..\..\MinSizeRel\glfw3.lib;..\..\MinSizeRel\igl_opengl.lib;..\..\MinSizeRel\igl.lib;opengl32.lib;..\..\MinSizeRel\glad.lib;..\..\MinSizeRel\igl_stb_image.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/MinSizeRel/sandBox_bin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/MinSizeRel/sandBox_bin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IGL_STATIC_LIBRARY;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glad\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\glfw\include;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\.;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\libigl-imgui\..\imgui\examples;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\external\stb;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..;C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\RelWithDebInfo\igl.lib;..\..\RelWithDebInfo\igl_opengl.lib;..\..\RelWithDebInfo\igl_opengl_glfw.lib;..\..\RelWithDebInfo\igl_opengl_glfw_imgui.lib;..\..\RelWithDebInfo\igl_png.lib;..\..\RelWithDebInfo\igl_opengl_glfw.lib;..\..\RelWithDebInfo\imgui.lib;..\..\RelWithDebInfo\glfw3.lib;..\..\RelWithDebInfo\igl_opengl.lib;..\..\RelWithDebInfo\igl.lib;opengl32.lib;..\..\RelWithDebInfo\glad.lib;..\..\RelWithDebInfo\igl_stb_image.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/RelWithDebInfo/sandBox_bin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/RelWithDebInfo/sandBox_bin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" "-BC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" --check-stamp-file "C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" "-BC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" --check-stamp-file "C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" "-BC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" --check-stamp-file "C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" "-BC:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master" --check-stamp-file "C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\sandBox.cpp" />
+    <ClInclude Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\sandBox.h" />
+    <ClCompile Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\main.cpp" />
+    <ClInclude Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\tutorial\sandBox\inputManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\ZERO_CHECK.vcxproj">
+      <Project>{9BAFADB1-AA06-3306-84F1-3BFE8E55E51D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\glad\glad.vcxproj">
+      <Project>{616EDA47-01FC-342B-81D2-B50AA86D5332}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\glfw\src\glfw.vcxproj">
+      <Project>{53D0B7B1-B051-3DCF-9E3D-574CDA7DCC86}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl.vcxproj">
+      <Project>{DF1B3940-E2B8-3C84-84B3-0EB81B517897}</Project>
+      <Name>igl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl_opengl.vcxproj">
+      <Project>{746AE49C-7727-3D33-A48D-6A82DA4A8F8A}</Project>
+      <Name>igl_opengl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl_opengl_glfw.vcxproj">
+      <Project>{765E86BA-EA26-355C-9683-DF6CA6115458}</Project>
+      <Name>igl_opengl_glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl_opengl_glfw_imgui.vcxproj">
+      <Project>{FD29DA9F-2B62-300C-ABFA-F58F61E0360F}</Project>
+      <Name>igl_opengl_glfw_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\igl_png.vcxproj">
+      <Project>{7BA7DAEA-1CD9-3BF7-B900-95E604710157}</Project>
+      <Name>igl_png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\stb_image\igl_stb_image.vcxproj">
+      <Project>{2905E315-C978-31EE-BD8C-A7C4A859B2F8}</Project>
+      <Name>igl_stb_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\3d animation course\project\EngineForAnimationCourse-master\imgui\imgui.vcxproj">
+      <Project>{2526A446-9EAB-398E-98E8-55390A4C9409}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

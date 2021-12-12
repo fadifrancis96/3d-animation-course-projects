@@ -1,0 +1,17 @@
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/CMakeFiles/igl.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/CMakeFiles/igl_opengl.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/CMakeFiles/igl_opengl_glfw.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/CMakeFiles/igl_opengl_glfw_imgui.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/CMakeFiles/igl_png.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/glad/CMakeFiles/glad.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/glad/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/glfw/src/CMakeFiles/glfw.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/imgui/CMakeFiles/imgui.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/stb_image/CMakeFiles/igl_stb_image.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/stb_image/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeFiles/sandBox_bin.dir
+C:/Users/ASUS/3d animation course/project/EngineForAnimationCourse-master/tutorial/sandBox/CMakeFiles/ALL_BUILD.dir
