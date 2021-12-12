@@ -2,6 +2,8 @@
 #include "igl/opengl/glfw/Display.h"
 #include "igl/opengl/glfw/Renderer.h"
 #include "sandBox.h"
+#include "C:\Users\ASUS\EngineForAnimationCourse\igl\opengl\glfw\Viewer.h"
+#include "C:\Users\ASUS\EngineForAnimationCourse\igl\opengl\glfw\Viewer.cpp"
 //#include <igl/opengl/glfw/imgui/ImGuiMenu.h>
 //#include <igl/opengl/glfw/imgui/ImGuiHelpers.h>
 //#include <../imgui/imgui.h>
@@ -61,10 +63,12 @@ static void glfw_mouse_press(GLFWwindow* window, int button, int action, int mod
 	 rndr->UpdatePosition(x, y);
 	 if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT) == GLFW_PRESS)
 	 {
+	
 		 rndr->MouseProcessing(GLFW_MOUSE_BUTTON_RIGHT);
 	 }
 	 else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS)
 	 {
+	
 		 rndr->MouseProcessing(GLFW_MOUSE_BUTTON_LEFT);
 	 }
 }
@@ -101,6 +105,10 @@ static void glfw_key_callback(GLFWwindow* window, int key, int scancode, int act
 {
 	Renderer* rndr = (Renderer*) glfwGetWindowUserPointer(window);
 	SandBox* scn = (SandBox*)rndr->GetScene();
+	igl::opengl::glfw::Viewer* viewer = rndr->GetScene();
+	viewer->simplification_enable = false;
+	
+
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, GL_TRUE);
 
@@ -161,7 +169,9 @@ static void glfw_key_callback(GLFWwindow* window, int key, int scancode, int act
 			rndr->TranslateCamera(Eigen::Vector3f(0, 0, 0.03f));
 			break;
 		case 's':
+			printf("SIMPLIFICATION ENABLED S !!!!!! \n");
 		case 'S':
+			printf("SIMPLIFICATION ENABLED s !!!!!! \n");
 			rndr->TranslateCamera(Eigen::Vector3f(0, 0, -0.03f));
 			break;
 		case GLFW_KEY_UP:
@@ -178,9 +188,17 @@ static void glfw_key_callback(GLFWwindow* window, int key, int scancode, int act
 			rndr->TranslateCamera(Eigen::Vector3f(0.01f, 0, 0));
 			break;
 		case ' ':
-
-			break;
+			// Assignment 1 - task 8 
+			viewer->simplification_enable = true;
+			printf("simplefication is  %s \n", viewer->simplification_enable ? "on" : "off");
+			//printf("send size is : %d" , std::ceil(0.05 * scn->data().Q->size()));
+			//viewer->init_objs_simpelified();
+			viewer->simplify_mesh(std::ceil(0.05 * scn->data().Q->size()));
 		
+			break;
+	
+
+			
 		default: 
 			Eigen::Vector3f shift;
 			float scale;

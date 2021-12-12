@@ -38,6 +38,25 @@ void Movable::MyTranslate(Eigen::Vector3d amt, bool preRotation)
 	else
 		Tout.translate(amt);
 }
+
+/// <summary>
+/// Assignment 1 Task 1 - rotate impl
+/// </summary>
+
+void Movable::TranslateInSystem(Eigen::Matrix3d rot, Eigen::Vector3d amt)
+{
+	Tout.pretranslate(rot.transpose()*amt);
+}
+
+void Movable::RotateInSystem(Eigen::Vector3d rotAxis, double angle)
+{
+	Eigen::Vector3d multipliedbymatrix = Tout.rotation().transpose()*(rotAxis.normalized());
+	Tout.rotate(Eigen::AngleAxisd(angle, multipliedbymatrix));
+
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 //angle in radians
 void Movable::MyRotate(Eigen::Vector3d rotAxis, double angle)
 {

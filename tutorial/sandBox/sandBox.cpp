@@ -27,9 +27,24 @@ void SandBox::Init(const std::string &config)
 		
 		while (nameFileout >> item_name)
 		{
-			std::cout << "openning " << item_name << std::endl;
-			load_mesh_from_file(item_name);
+
+			std::cout << "im here trying to open  \n" << item_name << std::endl;
+
+
 			
+
+			// here should 2 objects already be loaded 
+
+			Viewer::collission_init(item_name);
+			//Viewer::load_mesh_from_configuration(item_name , true );
+
+	
+			//Viewer::init_objs_simpelified();
+			
+
+
+
+
 			parents.push_back(-1);
 			data().add_points(Eigen::RowVector3d(0, 0, 0), Eigen::RowVector3d(0, 0, 1));
 			data().show_overlay_depth = false;
