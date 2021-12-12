@@ -904,7 +904,7 @@ namespace glfw
           /// 
           /// 
           /// </summary>
-        while (getline(infile, mesh_path)) {
+     /*   while (getline(infile, mesh_path)) {
 
               this->load_mesh_from_file(mesh_path);
               this->data().MyTranslate(Eigen::Vector3f((mesh - 0.5) * 0.5, 0, 0), false);
@@ -925,7 +925,7 @@ namespace glfw
               Eigen::RowVector3d red_color(1, 0, 0);
               this->draw_m_box(this->selected_data_index, tree->m_box, red_color);
               mesh++;
-          }
+          }*/
       
 
 
